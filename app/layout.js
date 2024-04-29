@@ -1,5 +1,5 @@
 import './globals.css'
-import Scroll from './components/Scroll'
+import Header from './components/Header'
 
 export const metadata = {
   title: 'Next.js',
@@ -10,11 +10,8 @@ export default function Layout({ children }) {
   return (
     <html lang='fr'>
       <body>
-        {/* <Header /> */}
+        <Header />
         <main>{children}</main>
-        <Scroll />
-
-        <footer>{/* Votre pied de page */}</footer>
       </body>
     </html>
   )
